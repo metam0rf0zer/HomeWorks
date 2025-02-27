@@ -2,3 +2,4 @@
 double d= Math.Floor(Convert.ToDouble(Console.ReadLine()));
 
 Console.WriteLine(d);
+
