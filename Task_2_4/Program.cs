@@ -5,3 +5,4 @@ int b = n %10;
 int c = n - a - b + b*100+a/100;
 Console.WriteLine(c);
 
+
