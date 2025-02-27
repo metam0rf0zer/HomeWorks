@@ -6,3 +6,4 @@ int c = n - a - b + b*100+a/100;
 Console.WriteLine(c);
 
 
+

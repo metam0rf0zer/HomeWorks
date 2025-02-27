@@ -6,3 +6,4 @@ double r = g + m / 60.0 + s / 3600.0;
 double d = r * ( Math.PI/180);
 Console.WriteLine(d);
 
+
