@@ -4,6 +4,7 @@ double total = 0;
 double i = 1;
 for (i = 1; i <= n; i++)
 {
-    total += 1 / i;
+    total += 1/i;
 }
 Console.WriteLine(total);
+
