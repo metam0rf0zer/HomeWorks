@@ -1,10 +1,41 @@
-﻿// See https://aka.ms/new-console-template for more information
-const int n = 10;
-int[] t = new int[n];
-Random rnd = new Random();
+﻿const int n = 3;
+int[,] array = { { 0, 0, 0 }, { 1, 1, 1 }, { 0, 0, 0 } };
+
 for (int i = 0; i < n; i++)
 {
-    t[i] = rnd.Next(0, 10);
-    Console.WriteLine(t[i]);
+    for (int j = 0; j < n; j++)
+    {
+        Console.Write("{0} ", array[i, j]);
+    }
+    Console.WriteLine();
 }
-Console.WriteLine(t);
+
+
+
+
+//Проверка по горизонтали
+bool flag = false;
+int cnt = 0;
+for (int i = 0; i < n; i++)
+{
+    cnt = 0;
+    for (int j = 0; j < n; j++)
+    {
+        if (j < 2 && array[i, 0] == 1)
+        {
+            cnt = array[i, j] == array[i, j + 1] && array[i, j] == 1 ? cnt + 1 : cnt;
+        }
+
+
+    }
+
+    flag = cnt == 2 ? true : false;
+    if (flag == true)
+    {
+        break;
+    }
+
+}
+Console.WriteLine(flag);
+
+
