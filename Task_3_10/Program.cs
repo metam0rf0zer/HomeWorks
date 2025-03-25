@@ -14,3 +14,4 @@ else
 {
     Console.WriteLine("Мы построили {0} домов", n);
 }
+
