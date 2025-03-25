@@ -22,3 +22,4 @@ else if (cnt_p < cnt_n)
     Console.WriteLine("Отрицательных чисел больше");
 }
 else Console.WriteLine("Положительных и отрицательных чисел одинаковое количество");
+ 

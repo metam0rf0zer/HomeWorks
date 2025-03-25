@@ -22,7 +22,7 @@ if (cnt_e > cnt_ne)
 else if (cnt_e < cnt_ne)
 {
     Console.WriteLine("Нечётных чисел больше");
-}
+} 
 else Console.WriteLine("Чётных и нечётных чисел одинаковое количество");
 
 

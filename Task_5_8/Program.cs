@@ -12,4 +12,4 @@ for (i = 0; i < n; i++)
     mx2 = mx2 < mx && mx2 > t[i] ? mx2 : t[i];
     Console.WriteLine(t[i]);
 }
-Console.WriteLine("самое большое число {0}, второе по велечине число {1}", mx, mx2);
+Console.WriteLine("самое большое число {0}, второе по велечине число {1}", mx, mx2); 

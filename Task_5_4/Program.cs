@@ -23,4 +23,4 @@ for (i = 0; i < 5; i++)
 for (i = 5; i < 10; i++)
 {
     Console.WriteLine(t[i]);
-}
+} 

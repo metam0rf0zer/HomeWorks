@@ -17,3 +17,4 @@ for (int i = 0; i < n; i++)
     Console.WriteLine("  Самое большое число в строке {0}",mx);
 }
 Console.ReadKey();
+ 

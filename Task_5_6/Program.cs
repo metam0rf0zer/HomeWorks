@@ -12,4 +12,4 @@ for (int i = 0; i < n; i++)
     }
     Console.WriteLine();
 }
-Console.ReadKey();
+Console.ReadKey(); 

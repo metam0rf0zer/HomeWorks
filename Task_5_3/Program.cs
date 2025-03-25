@@ -32,4 +32,4 @@ for (int j = 0; j < 10; j++)
 
 }
 Console.WriteLine("{0} - максимальное число, его индекс {1}", max,index_max);
-Console.WriteLine("{0} - минимальное число, его индекс {1}", min,index_min);
+Console.WriteLine("{0} - минимальное число, его индекс {1}", min,index_min); 
