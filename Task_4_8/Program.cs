@@ -9,11 +9,11 @@ while (n != 0)
 }
 
 int b = 0;
-int c = Convert.ToInt32(Math.Pow(10, cnt - 1));
+int c = Convert.ToInt32(Math.Pow(10, cnt-1));
 
 for (int i = 1; i <= cnt; i++)
 {
-    b += a % 10 * c;
+    b += a % 10*c;
     a = a / 10;
     c = c / 10;
 }
