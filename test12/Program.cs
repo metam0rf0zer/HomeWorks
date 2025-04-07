@@ -1,41 +1,23 @@
-﻿const int n = 3;
-int[,] array = { { 0, 0, 0 }, { 1, 1, 1 }, { 0, 0, 0 } };
-
-for (int i = 0; i < n; i++)
+﻿namespace Test12
 {
-    for (int j = 0; j < n; j++)
+    internal class Program
     {
-        Console.Write("{0} ", array[i, j]);
-    }
-    Console.WriteLine();
-}
-
-
-
-
-//Проверка по горизонтали
-bool flag = false;
-int cnt = 0;
-for (int i = 0; i < n; i++)
-{
-    cnt = 0;
-    for (int j = 0; j < n; j++)
-    {
-        if (j < 2 && array[i, 0] == 1)
+        static void Main(string[] args)
         {
-            cnt = array[i, j] == array[i, j + 1] && array[i, j] == 1 ? cnt + 1 : cnt;
+           double a=Convert.ToDouble(Console.ReadLine());
+           double b=Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(Multiply(a,b));
+
+        }
+        static int Multiply(int a, int b)
+        {
+            return a * b;
         }
 
-
-    }
-
-    flag = cnt == 2 ? true : false;
-    if (flag == true)
-    {
-        break;
+        static double Multiply(double a, double b)
+        {
+            return a * b;
+        }
     }
 
 }
-Console.WriteLine(flag);
-
-
