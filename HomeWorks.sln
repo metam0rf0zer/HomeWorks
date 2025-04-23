@@ -64,6 +64,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_7_5", "Task_7_5\Task_7_5.csproj", "{07F9BB4E-098D-4280-B32E-F8B7C6570BBF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test12", "Test12\Test12.csproj", "{FCC5FBB3-06C4-4B5F-834A-CA10C7DC66F1}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
