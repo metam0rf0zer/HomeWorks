@@ -48,4 +48,5 @@
 
         public string Fly() => $"лечу на высоте {MaxAltitude} метров. Везу {CountPassangers} пассажиров";
     }
+
 }
