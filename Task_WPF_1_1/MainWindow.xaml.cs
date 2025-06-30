@@ -26,6 +26,7 @@ namespace Task_WPF_1_1
         {
             clickCount++;
             clickCounterTextBlock.Text= $"Клики: {clickCount}";
+
         }
         
     }
