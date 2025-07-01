@@ -6,8 +6,16 @@
         xmlns:local="clr-namespace:WPF_Task_1_3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button/>
+    <Grid MouseEnter="Grid_MouseEnter">
+        <Button 
+                Name="myButton"
+                Content="Поймай меня!"
+                HorizontalAlignment="Center" 
+                Margin="0,187,0,0" 
+                VerticalAlignment="Top" 
+                Width="150" 
+                Height="50" Click="myButton_Click" MouseLeave="myButton_MouseLeave"/>
+
 
     </Grid>
 </Window>
