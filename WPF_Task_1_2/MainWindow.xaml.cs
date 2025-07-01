@@ -16,9 +16,41 @@ namespace WPF_Task_1_2
     /// </summary>
     public partial class MainWindow : Window
     {
+        int cnt = 1;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void myButton_Click(object sender, RoutedEventArgs e)
+        {
+            cnt++;
+            if (cnt > 3)
+            {
+                cnt = 1;
+            }
+            switch (cnt)
+            {
+                case 1:
+                    red.Fill = Brushes.Red;
+                    yellow.Fill = Brushes.Gray;
+                    green.Fill = Brushes.Gray;
+                    break;
+                case 2:
+                    red.Fill = Brushes.Gray;
+                    yellow.Fill = Brushes.Yellow;
+                    green.Fill = Brushes.Gray;
+                    break;
+                case 3:
+                    red.Fill = Brushes.Gray;
+                    yellow.Fill = Brushes.Gray;
+                    green.Fill = Brushes.Green;
+                    break;
+
+            }
+            
+
+            
         }
     }
 }
