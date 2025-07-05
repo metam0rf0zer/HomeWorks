@@ -1,0 +1,71 @@
+﻿<Window x:Class="WPF_Task_2_1.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Task_2_1"
+        mc:Ignorable="d"
+        Title="О программе" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>                
+                           
+        </Grid.RowDefinitions>
+
+
+        <TextBlock
+            VerticalAlignment="Bottom"
+            Grid.Row="0"
+            Height="Auto"
+            Width="Auto"
+            Text="Простой текстовый редактор"
+            FontSize="25"
+            FontWeight="Bold"
+            TextAlignment="Center"
+            LineHeight="25"
+            Margin="10"/>
+        <TextBlock
+            VerticalAlignment="Top"
+            Grid.Row="2"
+            Height="Auto"
+            Width="Auto"
+            Text="Автор: Симонов Денис Павлович"
+            FontSize="16"            
+            TextAlignment="Center"
+            LineHeight="25"
+            />
+        <TextBlock
+            VerticalAlignment="Top"
+            Grid.Row="3"
+            Height="Auto"
+            Width="Auto"
+            Text="Версия: 1.0"
+            FontSize="16"            
+            TextAlignment="Center"
+            LineHeight="25"
+            />
+        <TextBlock
+            VerticalAlignment="Top"
+            Grid.Row="4"
+            Height="Auto"
+            Width="Auto"
+            Text="Дата создания: 05.07.2025"
+            FontSize="16"            
+            TextAlignment="Center"
+            LineHeight="25"
+            />
+        <Button Grid.Row="5" Width="100" Height="25" Content="Закрыть" Click="Button_Click"/>
+
+
+        <Image Source="C:\Users\sdpsd\source\repos\HomeWorks\WPF_Task_2_1\img\Для программы.jpg" DockPanel.Dock="Top" Grid.Row="1"/>
+
+
+
+        
+
+    </Grid>
+</Window>
