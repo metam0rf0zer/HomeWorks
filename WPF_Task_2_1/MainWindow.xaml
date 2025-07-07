@@ -5,31 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Task_2_1"
         mc:Ignorable="d"
-        Title="Простой тектсовый редактор" Height="200" Width="500" MinHeight="200" MinWidth="500" Closing="Window_Closing">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DockPanel LastChildFill="True">
-            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
-                <Button Content="Открыть" Name="open" Width="100" Height="25" Margin="10" Click="open_Click"/>
-                <Button Content="Сохранить как" Name="save" Width="100" Height="25" Margin="10" Click="save_Click"/>
-                <Button Content="О программе" Name="about" Width="100" Height="25" Margin="10" Click="about_Click"/>
-            </StackPanel>
-            <StatusBar DockPanel.Dock="Bottom" Height="25">
-                <TextBlock Name="status" Text="Готово" VerticalAlignment="Center" Margin="5,0"/>
-            </StatusBar>
+        <DockPanel LastChildFill="False" />
+        <DockPanel LastChildFill="False"/>
+        <DockPanel LastChildFill="False"/>
+        <DockPanel LastChildFill="False"/>
+        
 
-            <TextBox Margin="5"                         
-                     TextWrapping="Wrap"
-                     HorizontalAlignment="Stretch"
-                     VerticalAlignment="Stretch"
-                     VerticalScrollBarVisibility="Auto"                                                 
-                     Padding="5"
-                     AcceptsReturn="True"
-                     Name="txtBox"
-                     AcceptsTab="True"
-                     ScrollViewer.HorizontalScrollBarVisibility="Auto"
-                     ScrollViewer.VerticalScrollBarVisibility="Auto"
-                     />
-            
         </DockPanel>
     </Grid>
 </Window>
