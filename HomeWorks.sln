@@ -55,19 +55,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_9_1", "Task_9_1\Task_9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_9_2", "Task_9_2\Task_9_2.csproj", "{1412B8D5-0378-43A2-B481-11078913CB62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Р вЂќР С•Р С— Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ1", "Р вЂќР С•Р С— Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ1\Р вЂќР С•Р С— Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ1.csproj", "{8426A4D2-39A1-4A42-A68F-7D533050F17F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 2", "Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 2\Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 2.csproj", "{3A97CF44-761D-4B11-BD33-96AE0C5C8CCD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 3", "Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 3\Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 3.csproj", "{0C7CEEA2-A8EE-4D20-955A-92E8A1BFF0BD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_14_1", "Task_14_1\Task_14_1.csproj", "{BB0D2C03-3C31-4777-94B6-F29FAB6F2903}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_14_2", "Task_14_2\Task_14_2.csproj", "{0EC8FAF4-3B40-4E2A-B2EF-93439E7D3B2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_10_1", "Task_10_1\Task_10_1.csproj", "{A5C6E5B4-4800-465E-B7DC-3DDA0A891B36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_10_1", "Test_10_1\Test_10_1.csproj", "{DDE95C01-76E9-472D-8DE2-42EABFB6B0DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_11_1", "Task_11_1\Task_11_1.csproj", "{7660ADDE-5AD9-4715-8AE9-E48E7620DD5F}"
 EndProject
