@@ -20,15 +20,25 @@ namespace WPF_Task_3_1
         {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (!Apply.IsChecked.HasValue|| !Apply.IsChecked.Value)
+            if (!Apply.IsChecked.HasValue || !Apply.IsChecked.Value)
             {
                 ErrorWindow errorWindow = new ErrorWindow();
-                errorWindow.WindowStyle=WindowStyle.ToolWindow;
+                errorWindow.WindowStyle = WindowStyle.ToolWindow;
                 errorWindow.ShowDialog();
+                MessageBox.Show("asd");
             }
+            else
+            {
+                string studentName = NameStudentTextBox.Text;
+                SuccessWindow successWindow = new SuccessWindow(studentName);
+                successWindow.WindowStyle = WindowStyle.ToolWindow;
+                successWindow.ShowDialog();                
+            }
+
+            
+             
         }
 
         private void Apply_Checked(object sender, RoutedEventArgs e)
