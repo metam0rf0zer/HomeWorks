@@ -55,19 +55,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_9_1", "Task_9_1\Task_9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_9_2", "Task_9_2\Task_9_2.csproj", "{1412B8D5-0378-43A2-B481-11078913CB62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Р вЂќР С•Р С— Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ1", "Р вЂќР С•Р С— Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ1\Р вЂќР С•Р С— Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ1.csproj", "{8426A4D2-39A1-4A42-A68F-7D533050F17F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 2", "Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 2\Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 2.csproj", "{3A97CF44-761D-4B11-BD33-96AE0C5C8CCD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 3", "Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 3\Р вЂќР С•Р С—_Р В·Р В°Р Т‘Р В°Р Р…Р С‘Р Вµ 3.csproj", "{0C7CEEA2-A8EE-4D20-955A-92E8A1BFF0BD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_14_1", "Task_14_1\Task_14_1.csproj", "{BB0D2C03-3C31-4777-94B6-F29FAB6F2903}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_14_2", "Task_14_2\Task_14_2.csproj", "{0EC8FAF4-3B40-4E2A-B2EF-93439E7D3B2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_10_1", "Task_10_1\Task_10_1.csproj", "{A5C6E5B4-4800-465E-B7DC-3DDA0A891B36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_10_1", "Test_10_1\Test_10_1.csproj", "{DDE95C01-76E9-472D-8DE2-42EABFB6B0DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_11_1", "Task_11_1\Task_11_1.csproj", "{7660ADDE-5AD9-4715-8AE9-E48E7620DD5F}"
 EndProject
@@ -78,6 +70,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_17_1", "Task_17_1\Task_17_1.csproj", "{B2D4486D-DEB3-47C9-AE49-8B6EC8F5CCBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test 1", "Test 1\Test 1.csproj", "{74B32713-844A-4343-9F6B-81D0FBECDAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_2_1", "WPF_Task_2_1\WPF_Task_2_1.csproj", "{47BE89B8-48A5-418E-8EA8-CDC4F277C7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_3_1", "WPF_Task_3_1\WPF_Task_3_1.csproj", "{CB7C2D4E-361D-4C65-A307-4C7EEA33B2AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,11 +217,16 @@ Global
 		{74B32713-844A-4343-9F6B-81D0FBECDAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B32713-844A-4343-9F6B-81D0FBECDAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74B32713-844A-4343-9F6B-81D0FBECDAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BE89B8-48A5-418E-8EA8-CDC4F277C7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BE89B8-48A5-418E-8EA8-CDC4F277C7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BE89B8-48A5-418E-8EA8-CDC4F277C7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BE89B8-48A5-418E-8EA8-CDC4F277C7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB7C2D4E-361D-4C65-A307-4C7EEA33B2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB7C2D4E-361D-4C65-A307-4C7EEA33B2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB7C2D4E-361D-4C65-A307-4C7EEA33B2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB7C2D4E-361D-4C65-A307-4C7EEA33B2AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CADD506C-BB9E-42F2-9DD7-CDDC6EA731FB}
 	EndGlobalSection
 EndGlobal
