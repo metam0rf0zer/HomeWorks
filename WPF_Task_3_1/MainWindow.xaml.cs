@@ -51,6 +51,7 @@ namespace WPF_Task_3_1
                             string chosenCourses = string.Join(", ", AvailableCoursesListBox.SelectedItems.Cast<ListBoxItem>().Select(item => item.Content));
                             var chosenFaculty = FacultyComboBox.Text;
                             MessageBox.Show($"Имя студента: {NameStudentTextBox.Text}\nФакультет: {chosenFaculty} \nКурс: {chosenCourses}");
+
                         }
                     }
                 }
