@@ -40,6 +40,7 @@
             <ListBoxItem>SQL</ListBoxItem>
             <ListBoxItem>NoCode</ListBoxItem>
         </ListBox>
+        
         <CheckBox Name="Apply" Grid.Row="6" VerticalAlignment="Bottom" Checked="Apply_Checked"  >
             Я согласен получать рассылку
         </CheckBox>

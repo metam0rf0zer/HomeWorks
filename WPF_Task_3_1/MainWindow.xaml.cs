@@ -32,6 +32,7 @@ namespace WPF_Task_3_1
                 if (FacultyComboBox.SelectedItem == null)
                 {
                     MessageBox.Show("Необходимо выбрать факультет");
+
                 }
                 else
                 {
