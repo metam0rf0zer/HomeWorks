@@ -33,7 +33,7 @@
             <ComboBoxItem>Менеджмент</ComboBoxItem>            
         </ComboBox>
         <Label Margin="5,10,0,0" Grid.Row="4" Content="Доступные курсы:"/>
-        <ListBox Name="AvailableCoursesListBox" Grid.Row="5" Margin="10,10,10,0" Height="Auto" VerticalAlignment="Top">
+        <ListBox SelectionMode="Multiple" Name="AvailableCoursesListBox" Grid.Row="5" Margin="10,10,10,0" Height="Auto" VerticalAlignment="Top">
             <ListBoxItem>WPF</ListBoxItem>
             <ListBoxItem>C#</ListBoxItem>
             <ListBoxItem>Python</ListBoxItem>
