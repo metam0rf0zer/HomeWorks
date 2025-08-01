@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Task_4_1"
         mc:Ignorable="d"
-        Title="Кнопка с переключением" Height="200" Width="300">
-    <StackPanel>
-        <local:ToggleColorButton Height="200" Width="300"/>
+        Title="Кнопка с переключением" Height="500" Width="700">
+    <StackPanel VerticalAlignment="Center">
+        <local:ToggleColorButton Width="150" Height="75" FontSize="16"/>
     </StackPanel>
 </Window>

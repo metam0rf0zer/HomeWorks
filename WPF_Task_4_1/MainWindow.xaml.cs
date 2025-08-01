@@ -19,6 +19,6 @@ namespace WPF_Task_4_1
         public MainWindow()
         {
             InitializeComponent();
-        }
+        }        
     }
 }
