@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_3_1", "WPF_Task_3_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_4_1", "WPF_Task_4_1\WPF_Task_4_1.csproj", "{A61F7A78-F87B-440E-A10A-91651F7C521C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_5_1", "WPF_Task_5_1\WPF_Task_5_1.csproj", "{6290BADB-EC7C-4BFA-8CAF-15BB6655A828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{A61F7A78-F87B-440E-A10A-91651F7C521C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A61F7A78-F87B-440E-A10A-91651F7C521C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A61F7A78-F87B-440E-A10A-91651F7C521C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6290BADB-EC7C-4BFA-8CAF-15BB6655A828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6290BADB-EC7C-4BFA-8CAF-15BB6655A828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6290BADB-EC7C-4BFA-8CAF-15BB6655A828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6290BADB-EC7C-4BFA-8CAF-15BB6655A828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

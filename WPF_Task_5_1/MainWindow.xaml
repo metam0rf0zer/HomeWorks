@@ -1,0 +1,46 @@
+﻿<Window x:Class="WPF_Task_5_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Task_5_1"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Панель настроек" Height="450" Width="800">
+    <Window.Resources>
+
+
+    </Window.Resources>
+    <StackPanel VerticalAlignment="Top">
+        <TextBlock Text="Настройки приложения" 
+                   VerticalAlignment="Top" 
+                   Height="Auto" 
+                   Width="Auto" 
+                   HorizontalAlignment="Center"
+                   FontSize="30"
+                   Margin="30"/>
+        <Button
+            Content="Сохранить"
+            Background="{StaticResource PrimariColor}"
+            Height="{StaticResource ControlHeight}" 
+            Width="{StaticResource ControlWidth}" 
+            Margin="0"/>
+        <Button
+            Content="Отменить" 
+            Background="{StaticResource PrimariColor}"
+            Height="{StaticResource ControlHeight}" 
+            Width="{StaticResource ControlWidth}" 
+            Margin="30"/>
+        <CheckBox
+            Background="{StaticResource PrimariColor}"
+            Content="Включить режим"
+            HorizontalAlignment="Center"/>
+        <Button
+            Background="{StaticResource PrimariColor}"
+            Content="Специальная кнопка" 
+            Height="{StaticResource ControlHeight}" 
+            Width="{StaticResource ControlWidth}" 
+            Margin="30"/>
+
+    </StackPanel>
+</Window>
