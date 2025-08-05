@@ -6,41 +6,32 @@
         xmlns:local="clr-namespace:WPF_Task_5_1"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="Панель настроек" Height="450" Width="800">
+        Title="Панель настроек" Height="250" Width="250">
+
     <Window.Resources>
-
-
+        <Style TargetType="Button">
+            <Style.Setters>
+                <Setter Property="Background" Value="Red"/>
+            </Style.Setters>
+            
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Green"/>
+                    <Setter Property="BorderBrush" Value="Green"/>
+                    <Setter Property="Margin" Value="3"/>
+                    <Setter Property="FontSize" Value="20"/>
+                </Trigger>
+            </Style.Triggers>                        
+        </Style>        
     </Window.Resources>
-    <StackPanel VerticalAlignment="Top">
-        <TextBlock Text="Настройки приложения" 
-                   VerticalAlignment="Top" 
-                   Height="Auto" 
-                   Width="Auto" 
-                   HorizontalAlignment="Center"
-                   FontSize="30"
-                   Margin="30"/>
-        <Button
-            Content="Сохранить"
-            Background="{StaticResource PrimariColor}"
-            Height="{StaticResource ControlHeight}" 
-            Width="{StaticResource ControlWidth}" 
-            Margin="0"/>
-        <Button
-            Content="Отменить" 
-            Background="{StaticResource PrimariColor}"
-            Height="{StaticResource ControlHeight}" 
-            Width="{StaticResource ControlWidth}" 
-            Margin="30"/>
-        <CheckBox
-            Background="{StaticResource PrimariColor}"
-            Content="Включить режим"
-            HorizontalAlignment="Center"/>
-        <Button
-            Background="{StaticResource PrimariColor}"
-            Content="Специальная кнопка" 
-            Height="{StaticResource ControlHeight}" 
-            Width="{StaticResource ControlWidth}" 
-            Margin="30"/>
 
+
+
+    <StackPanel VerticalAlignment="Top">
+        <TextBlock Text="Настройки приложения"/>
+        <Button Content="Сохранить"/>
+        <Button Content="Отменить"/>
+        <Button Content="Специальная кнопка"/>
+        <CheckBox Content="Включить режим" HorizontalAlignment="Center"/>
     </StackPanel>
 </Window>
