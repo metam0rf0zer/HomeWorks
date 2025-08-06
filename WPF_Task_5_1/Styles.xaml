@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
     <SolidColorBrush x:Key="PrimaryColor" Color="Yellow"/>
     <SolidColorBrush x:Key="HoverColor" Color="Red"/>
-    <SolidColorBrush x:Key="DisbledColor" Color="Wheat"/>
+    <SolidColorBrush x:Key="DisbledColor" Color="LawnGreen"/>
     <SolidColorBrush x:Key="PrimaryForegroundColor" Color="Blue"/>
     <sys:Double x:Key="ControlHeight">40</sys:Double>
     <sys:Double x:Key="ControlWidth">120</sys:Double>
@@ -23,6 +23,10 @@
         <Setter Property="Background" Value="{DynamicResource PrimaryColor}"/>
         <Setter Property="Foreground" Value="{DynamicResource PrimaryForegroundColor}"/>
         <Setter Property="BorderBrush" Value="Green"/>
+    </Style>
+
+    <Style x:Key="InteractiveButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+        <Setter Property="Foreground" Value="{DynamicResource HoverColor}"/>
     </Style>
 
     

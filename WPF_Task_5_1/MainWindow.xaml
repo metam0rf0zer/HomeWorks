@@ -9,8 +9,8 @@
         Title="Панель настроек" Height="250" Width="250">
 
     <Window.Resources>
-        <Style TargetType="TextBlock" x:Name="TitleStyle" BasedOn="{StaticResource HeaderTextStyle}"/>
-        <Style TargetType="Button" x:Name="InteractiveButtonStyle" BasedOn="{StaticResource BaseButtonStyle}">        
+        <Style TargetType="TextBlock" BasedOn="{StaticResource HeaderTextStyle}"/>
+        <Style TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Foreground" Value="{StaticResource HoverColor}"/>
@@ -21,23 +21,17 @@
                 </Trigger>
                 <Trigger Property="IsEnabled" Value="False">
                     <Setter Property="Foreground" Value="{StaticResource DisbledColor}"/>
-                </Trigger>
-                <MultiTrigger>
-                    <MultiTrigger.Conditions>
-                        
-                    </MultiTrigger.Conditions>
-                </MultiTrigger>
+                </Trigger>               
             </Style.Triggers>
         </Style>
     </Window.Resources>
-
-
-
+    
     <StackPanel VerticalAlignment="Top">
         <TextBlock Text="Настройки приложения"/>
         <Button Content="Сохранить"/>
         <Button Content="Отменить"/>
-        <Button Content="Специальная кнопка"/>
-        <CheckBox x:Name="ToggleButton" Content="Включить режим" HorizontalAlignment="Center"/>
+        <Button Content="Специальная кнопка"                 
+                IsEnabled="{Binding IsChecked, ElementName=ToggleButton}"/>
+        <CheckBox x:Name="ToggleButton" Content="Включить режим" HorizontalAlignment="Center"/>        
     </StackPanel>
 </Window>
