@@ -20,9 +20,7 @@
                             <ContentPresenter Content="Xxxxxx" HorizontalAlignment="Center"/>
                         </StackPanel>
                         <ControlTemplate.Triggers>
-                            <Trigger Property="IsChecked" Value="True">
-                                <Setter TargetName="X" Property="Opacity" Value="1"/>
-                            </Trigger>
+                           
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
