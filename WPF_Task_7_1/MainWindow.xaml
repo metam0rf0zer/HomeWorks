@@ -7,29 +7,40 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <Style TargetType="CheckBox">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate>
-                        <StackPanel>
-                            <Grid>
-                                <Rectangle Height="50" Stroke="Black" Width="50" RadiusX="15" RadiusY="15"/>
-                                <TextBlock x:Name="X" Opacity="0" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="45" Margin="0,0,0,5"/>
-                                <Ellipse x:Name="O" Opacity="0" Fill="Black" Height="30" Stroke="Black" Width="30" HorizontalAlignment="Center" VerticalAlignment="Center" />
-                            </Grid>
-                            <ContentPresenter Content="Xxxxxx" HorizontalAlignment="Center"/>
-                        </StackPanel>
-                        <ControlTemplate.Triggers>
-                           
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>        
-    </Window.Resources>
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-        <CheckBox Margin="100" Content="Unchecked"/>
+        <ControlTemplate x:Key="ChkBoxTemplate" TargetType="CheckBox">
+            <StackPanel>
+                <Grid>
+                    <Rectangle Height="50" Stroke="Black" Width="50" RadiusX="15" RadiusY="15"/>
+                    <TextBlock x:Name="X" Opacity="0" Text="X" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="45" Margin="0,0,0,5"/>
+                    <Ellipse x:Name="O" Opacity="0" Fill="Black" Height="30" Stroke="Black" Width="30" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    
+                </Grid>
+
+                <ContentPresenter x:Name="CNTPres"                                    
+                                  HorizontalAlignment="Center"/>                
+            </StackPanel>
+
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter TargetName="X" Property="Opacity" Value="1"/>
+                </Trigger>
+                <Trigger Property="IsChecked" Value="{x:Null}">
+                    <Setter TargetName="O" Property="Opacity" Value="1"/>
+                </Trigger>
+
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
         
+        
+        <Style TargetType="CheckBox">
+            <Setter Property="Template" Value="{StaticResource ChkBoxTemplate}"/>            
+        </Style>
+    </Window.Resources>
+    
+    
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+        <CheckBox Margin="100" Content="Unchecked" IsChecked="False"/>
+        <CheckBox Margin="100" Content="Unchecked" IsChecked="True"/>
+        <CheckBox Margin="100" Content="Unchecked" IsChecked="{x:Null}"  IsThreeState="True"/>        
     </StackPanel>
 </Window>
-    
