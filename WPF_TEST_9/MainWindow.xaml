@@ -1,0 +1,37 @@
+﻿<Window x:Class="WPF_TEST_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_TEST_9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!-- Привязки команд -->
+    <Window.CommandBindings>
+        <CommandBinding Command="local:CustomCommands.ChangeColor"
+                        Executed="ChangeColorExecuted"
+                        CanExecute="ChangeColorCanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Undo"
+                        Executed="UndoExecuted"
+                        CanExecute="UndoCanExecute"/>
+    </Window.CommandBindings>
+
+    <!-- Основной контейнер -->
+    <DockPanel x:Name="Dock" Background="White">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Действия">
+                <MenuItem Command="local:CustomCommands.ChangeColor"/>
+                <MenuItem Command="ApplicationCommands.Undo"/>
+            </MenuItem>
+        </Menu>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Command="local:CustomCommands.ChangeColor"
+                    Content="Изменить цвет"
+                    Width="120" Height="30" Margin="0,0,0,10"/>
+            <Button Command="ApplicationCommands.Undo"
+                    Content="Отменить"
+                    Width="120" Height="30"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

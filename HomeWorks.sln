@@ -87,6 +87,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_7_1", "WPF_Task_7_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_8_1", "WPF_Task_8_1\WPF_Task_8_1.csproj", "{921FF5B1-4DD3-4DF3-858D-5C884F31E3D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_TEST_9", "WPF_TEST_9\WPF_TEST_9.csproj", "{9F605592-0AE8-4BC5-ABD4-BFDFFD59D370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_9_1", "WPF_Task_9_1\WPF_Task_9_1.csproj", "{D9C3071B-F119-4DF5-9575-C375B61E6A1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +265,14 @@ Global
 		{921FF5B1-4DD3-4DF3-858D-5C884F31E3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921FF5B1-4DD3-4DF3-858D-5C884F31E3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921FF5B1-4DD3-4DF3-858D-5C884F31E3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F605592-0AE8-4BC5-ABD4-BFDFFD59D370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F605592-0AE8-4BC5-ABD4-BFDFFD59D370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F605592-0AE8-4BC5-ABD4-BFDFFD59D370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F605592-0AE8-4BC5-ABD4-BFDFFD59D370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C3071B-F119-4DF5-9575-C375B61E6A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C3071B-F119-4DF5-9575-C375B61E6A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C3071B-F119-4DF5-9575-C375B61E6A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C3071B-F119-4DF5-9575-C375B61E6A1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
