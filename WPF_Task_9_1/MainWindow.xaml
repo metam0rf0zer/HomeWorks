@@ -6,25 +6,31 @@
         xmlns:local="clr-namespace:WPF_Task_9_1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="local:CustomCommands.ChangeColor"
+                        Executed="ChangeColorExecuted"
+                        CanExecute="ChangeColorCanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Undo"
+                        Executed="UndoExecuted"
+                        CanExecute="UndoCanExecute"/>
+    </Window.CommandBindings>
+    
     <StackPanel>
         <Menu Height="Auto">
-            <MenuItem Header="Действия">
-                <MenuItem Header="Изменить цвет" Command="local:CustomCommands.ChangeColor">
-                    <MenuItem.CommandBindings>
-                        <CommandBinding Command="local:CustomCommands.ChangeColor" Executed="ChangeColor"/>
-                    </MenuItem.CommandBindings>
-                </MenuItem>
-                <MenuItem Header="Отменить"/>
-            </MenuItem>
-
+            <MenuItem Header="Дейсвия">
+                <MenuItem Command="local:CustomCommands.ChangeColor"/>
+                <MenuItem Header="Отменить" Command="ApplicationCommands.Undo"/>
+            </MenuItem>            
         </Menu>
+        
         <Button Command="local:CustomCommands.ChangeColor" 
                 Content="Изменить цвет" 
                 Margin="50"
                 Height="25"
                 Width="100"/>
-        
-        <Button Content="Отменить" Margin="50" Height="25" Width="100"/>
+
+        <Button Command="ApplicationCommands.Undo"
+            Content="Отменить" Margin="50" Height="25" Width="100"/>
 
     </StackPanel>
 </Window>
