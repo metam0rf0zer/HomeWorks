@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Task_10_1", "WPF_Task_10_1\WPF_Task_10_1.csproj", "{83281124-EED6-45CA-9693-E02D9065BEDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlExample", "UserControlExample\UserControlExample.csproj", "{1D3EC59A-784D-464B-A51A-26D2A50EDF22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{83281124-EED6-45CA-9693-E02D9065BEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83281124-EED6-45CA-9693-E02D9065BEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83281124-EED6-45CA-9693-E02D9065BEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3EC59A-784D-464B-A51A-26D2A50EDF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3EC59A-784D-464B-A51A-26D2A50EDF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3EC59A-784D-464B-A51A-26D2A50EDF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3EC59A-784D-464B-A51A-26D2A50EDF22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
